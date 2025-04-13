@@ -1,12 +1,61 @@
-# React + Vite
+# Hotel Dashboard - React.js App
+📌 Description
+A modern hotel management dashboard built with React.js that provides comprehensive tools for hotel administrators to manage cabins, bookings, and analyze performance metrics.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Key features include:
 
-Currently, two official plugins are available:
+🏡 Cabin management (add/edit/delete)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚙️ Customizable hotel settings (minimum nights, breakfast pricing, etc.)
 
-## Expanding the ESLint configuration
+🔐 User authentication (sign up, login, logout)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📊 Interactive charts for activity monitoring
+
+📈 Sales analytics and stay duration statistics
+
+# � Features
+User Management
+Secure authentication system
+
+User account creation and profile management
+
+Role-based access control
+
+Cabin Management
+Add new cabins with detailed specifications
+
+Edit existing cabin information
+
+Delete cabins when needed
+
+Analytics Dashboard
+Today's activity overview
+
+Stay duration summary charts
+
+Sales performance visualization
+
+Booking trends analysis
+
+Settings
+Configure minimum stay requirements
+
+Set breakfast pricing
+
+Manage other hotel policies
+
+🛠️ Technologies Used
+React.js
+
+React Router
+
+React query
+
+Recharts (for data visualization)
+
+Styled Components
+
+React hook form (for forms and validation)
+
+Supabase/Auth (for authentication)
